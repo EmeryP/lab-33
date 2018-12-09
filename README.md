@@ -1,8 +1,11 @@
-## Asynchronous API's in React
+## Remote API's w/React
+
+### Check it out!
+To see how this project works with the remote Star Wars API checkout the `Sandbox` link below! Feel free to fork it for yourself and most importantly have fun!
 
 ### Links and Resources
 * [Sandbox](https://codesandbox.io/s/xpx8x3yrvw)
 
+### UML
 
-#### UML
-Link to an image of the UML for your application and response to events
+![lab-33](assets/lab-33.jpg)
