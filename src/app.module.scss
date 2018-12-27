@@ -1,0 +1,70 @@
+.people {
+    
+    display:flex;
+    flex-direction:row;
+
+    .person {
+        flex:1;
+        background: #000;
+        padding: 0 .5em;
+
+        div {
+            display:flex;
+            border: 1px solid black;
+            margin: .1em;
+            padding: .1em;
+            background-color: #eff;
+            border-radius: 3px;
+
+            span:nth-child(1) {
+                font-weight:bold;
+                margin-right: 1em;
+            }
+            span:nth-child(2) {
+                flex:1;
+            }
+        }
+    }
+
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+
+        li {
+            border: 1px solid blue;
+            cursor: pointer;
+            margin: .3em 0;
+            padding:.5em 0;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: inset 0 0 20px #000000;
+            text-align: center;
+            background: aliceblue;
+
+            &:hover {
+                background: red;
+            }
+        }
+
+    }
+}
+
+body {
+  background: #000;
+}
+
+button {
+  background-color: #eff;
+  margin: 5% 35%;
+  box-shadow: 0 8px 6px -6px black;
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 30%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+ cursor: pointer;
+}
